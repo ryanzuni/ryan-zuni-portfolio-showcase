@@ -1,39 +1,38 @@
-
 import { ExternalLink, Github } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution built with React.js and Laravel. Features include user authentication, payment integration, and admin dashboard.",
-      technologies: ["React.js", "Laravel", "MySQL", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      github: "https://github.com/ryanzuni/ecommerce-platform",
-      demo: "https://demo-ecommerce.com"
+      title: "Bukit Cendana",
+      description: "Responsive web developed with Laravel as a personal thesis project. Includes an admin panel to manage visitor data and showcase information about Bukit Cendana, one of the most popular nature tourism destinations in Lampung.",
+      technologies: ["PHP", "JavaScript", "Laravel", "MySQL", "Bootstrap"],
+      imgSrc: "/images/bukitcendana.png",
+      github: "https://github.com/ryanzuni/Project",
+      demo: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates. Built using React.js frontend and Node.js backend with Socket.io.",
-      technologies: ["React.js", "Node.js", "Socket.io", "MongoDB"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      github: "https://github.com/ryanzuni/task-manager",
-      demo: "https://demo-taskmanager.com"
+      title: "Marketplace Katering",
+      description: "Responsive web app built with Laravel. Features separate interfaces for admin and users. Admin manages content, menu data, and user-facing display. Users can browse catering services, view detailed information, and interact with the content added by admin.",
+      technologies: ["JavaScript", "PHP", "Laravel", "MySQL"],
+      imgSrc: "/images/marketplacekatering.png", 
+      github: "#",
+      demo: "#"
     },
     {
-      title: "Portfolio Website",
-      description: "Responsive portfolio website showcasing modern web development techniques. Features smooth animations and mobile-first design.",
-      technologies: ["TypeScript", "React.js", "Tailwind CSS", "Framer Motion"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      github: "https://github.com/ryanzuni/portfolio",
-      demo: "https://ryanzuni.dev"
+      title: "Admin Website",
+      description: "Responsive admin dashboard built with Express.js and JavaScript. Created as a personal project to sharpen backend development skills. Includes OpenAI-powered chat and is currently under active development.",
+      technologies: ["Express.Js", "JavaScript", "OpenAI API (Chat Integration)", "HTML", "CSS"],
+      imgSrc: "/images/admin.png", 
+      github: "https://github.com/ryanzuni/admin-pembelian",
+      demo: "#"
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather dashboard with location-based forecasts. Integrates with multiple weather APIs for accurate data.",
-      technologies: ["JavaScript", "PHP", "Bootstrap", "Chart.js"],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-      github: "https://github.com/ryanzuni/weather-dashboard",
-      demo: "https://weather-demo.com"
+      title: "Dental Clinic",
+      description: "Responsive web app developed for a dental clinic client. Includes dedicated access for admin, doctors, and nurses to manage information and handle clinic transactions. Patients can view clinic details and submit appointment requests. Fully completed and delivere.",
+      technologies: ["JavaScript", "HTML", "PHP", "Bootstrap"],
+      imgSrc: "/images/dentalclinic.png", 
+      github: "#",
+      demo: "#"
     }
   ];
 
@@ -45,14 +44,14 @@ export const Projects = () => {
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.title}
               className="bg-slate-800/50 rounded-xl overflow-hidden backdrop-blur-sm border border-gray-700 hover:border-blue-500/50 transition-all duration-300 hover:transform hover:scale-105"
             >
               <div className="relative overflow-hidden">
                 <img
-                  src={project.image}
+                  src={project.imgSrc}
                   alt={project.title}
                   className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
                 />

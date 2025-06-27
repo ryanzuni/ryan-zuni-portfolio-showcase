@@ -1,14 +1,16 @@
 
 export const Skills = () => {
   const skills = [
-    { name: "TypeScript", level: 90, color: "bg-blue-500" },
-    { name: "JavaScript", level: 95, color: "bg-yellow-500" },
-    { name: "React.js", level: 90, color: "bg-cyan-500" },
-    { name: "Node.js", level: 85, color: "bg-green-500" },
-    { name: "PHP", level: 88, color: "bg-purple-500" },
-    { name: "Laravel", level: 85, color: "bg-red-500" },
-    { name: "Tailwind CSS", level: 92, color: "bg-teal-500" },
-    { name: "Bootstrap", level: 90, color: "bg-indigo-500" },
+    { name: "TypeScript", level: 55, color: "bg-blue-500" },
+    { name: "Express.js", level: 65, color: "bg-zinc-500" },
+    { name: "React.js", level: 65, color: "bg-cyan-500" },
+    { name: "Node.js", level: 60, color: "bg-green-500" },
+    { name: "JavaScript", level: 90, color: "bg-yellow-500" },
+    { name: "PHP", level: 90, color: "bg-purple-500" },
+    { name: "Laravel", level: 95, color: "bg-red-500" },
+    { name: "Code Iginiter", level: 85, color: "bg-pink-500" },
+    { name: "Tailwind CSS", level: 95, color: "bg-teal-500" },
+    { name: "Bootstrap", level: 95, color: "bg-indigo-500" },
   ];
 
   return (
@@ -42,12 +44,11 @@ export const Skills = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-white mb-8">Technologies I Work With</h3>
-          <div className="flex flex-wrap justify-center gap-4">
+          <h3 className="text-2xl font-bold text-white mb-9">Technologies I Work With</h3>
+          <div className="flex flex-wrap justify-center gap-10">
             {[
               "React", "Next.js", "Vue.js", "Angular", "Node.js", "Express", 
-              "Laravel", "PHP", "MySQL", "MongoDB", "PostgreSQL", "Redis",
-              "Docker", "AWS", "Git", "REST APIs", "GraphQL", "Webpack"
+              "Laravel", "PHP", "MySQL", "Docker", "AWS", "Git", "REST APIs"
             ].map((tech) => (
               <span
                 key={tech}

@@ -9,7 +9,7 @@ export const Hero = () => {
           <div className="mb-8">
             <div className="w-48 h-48 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 p-1">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                src="/images/Photo_RyanZuniPangestu.jpeg"
                 alt="Ryan Zuni Pangestu"
                 className="w-full h-full rounded-full object-cover"
               />
@@ -36,7 +36,7 @@ export const Hero = () => {
           
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="mailto:ryan.zuni.pangestu@gmail.com"
+              href="mailto:ryanzunipangestu@gmail.com"
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <Mail className="inline mr-2" size={20} />
@@ -64,7 +64,7 @@ export const Hero = () => {
               <Github size={32} />
             </a>
             <a
-              href="https://linkedin.com/in/ryanzunipangestu"
+              href="https://www.linkedin.com/in/ryan-zuni-pangestu-70933525a/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors duration-300 hover:scale-110 transform"

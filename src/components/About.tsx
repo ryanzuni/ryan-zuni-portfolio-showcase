@@ -56,7 +56,7 @@ export const About = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-300">Experience:</span>
-                  <span className="text-blue-400">Full Stack</span>
+                  <span className="text-blue-400">Freelance Web Developer</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-300">Availability:</span>
